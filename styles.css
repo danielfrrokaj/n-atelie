@@ -57,6 +57,32 @@ h3, p {
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 30px;
 }
+.paragraf {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: 30px;
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto;
+}
+
+th, td {
+  border: 1px solid orange;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+  background-color: #ffe5b4; /* Light orange background for header */
+}
+
 
 button {
 	border: none;
@@ -72,6 +98,28 @@ button {
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
 button:hover{
+	cursor: pointer;
+}
+.oferta {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button2 {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: white;
+  font-weight: bold;
+  font-size: large;
+  margin: auto;
+	background: #ffaa2a;
+	box-shadow: 0 3px 20px 0 #0000003b;
+  display: flex;
+  
+}
+button2:hover{
 	cursor: pointer;
 }
 
