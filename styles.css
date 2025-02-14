@@ -30,7 +30,7 @@
 
 
 header {
-	background: url('background.jpg');
+	background: url('background1.jpg');
 	text-align: center;
 	width: 100%;
 	height: auto;
@@ -68,7 +68,7 @@ h3, p {
 table {
   width: 50%;
   border-collapse: collapse;
-  margin: 20px 0;
+  padding-top: 30px;
   margin-left: 30px;
   color: #333;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,7 +85,9 @@ th {
   font-weight: bold;
   background-color: #ffe5b4; /* Light orange background for header */
 }
-
+.tabela {
+  padding-top: 40px;
+}
 
 button {
 	border: none;
